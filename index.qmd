@@ -1,0 +1,285 @@
+---
+title: "Your Presentation Title"
+subtitle: "Subtitle or Tagline"
+author: "Author Name"
+date: today
+date-format: "MMMM D, YYYY"
+format:
+  revealjs:
+    theme: [default, custom.css]
+    transition: slide
+    background-transition: fade
+    slide-number: true
+    chalkboard:
+      enabled: true
+    preview-links: auto
+    logo: "logo.png"
+    footer: "Your Organization © 2024"
+reveal-options:
+  hash: true
+  center: true
+---
+
+## Welcome to Your Presentation
+
+This is your first slide. You can add content here.
+
+::: {.notes}
+Speaker notes go here. They won't appear in the presentation but you'll see them in presenter view.
+:::
+
+---
+
+## Slide with Bullet Points
+
+- First main point
+  - Sub-point one
+  - Sub-point two
+- Second main point
+- Third main point
+
+---
+
+## Two Column Layout
+
+::: {.columns}
+::: {.column width="50%"}
+### Left Column
+
+- Point 1
+- Point 2
+- Point 3
+:::
+
+::: {.column width="50%"}
+### Right Column
+
+Text content or images can go here.
+
+![](https://via.placeholder.com/300)
+:::
+:::
+
+---
+
+## Code Example
+
+```python
+# This is a code block with syntax highlighting
+def hello_world():
+    print("Hello, World!")
+    return True
+
+# Call the function
+result = hello_world()
+```
+
+---
+
+## Incremental Bullet Points
+
+::: {.incremental}
+- First point appears
+- Then this one
+- And finally this one
+:::
+
+---
+
+## Lists and Fragments
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+1. Numbered list item 1
+2. Numbered list item 2
+3. Numbered list item 3
+
+:::
+
+::: {.column width="40%"}
+
+- Unordered item
+- Another item
+- Final item
+
+:::
+
+::::
+
+---
+
+## Tables
+
+| Feature | Details | Status |
+|---------|---------|--------|
+| Responsive | Mobile-friendly | ✓ |
+| Dark Mode | Built-in theme | ✓ |
+| Code Highlighting | Syntax colors | ✓ |
+| Animations | Smooth transitions | ✓ |
+
+---
+
+## Math Equations
+
+Inline equation: $E = mc^2$
+
+Display equation:
+
+$$\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+
+More complex mathematics can be easily integrated.
+
+---
+
+## Image with Caption
+
+![A beautiful landscape image](https://via.placeholder.com/600x400)
+
+*Figure 1: This is a caption for the image*
+
+---
+
+## Blockquote
+
+> "The only way to do great work is to love what you do." 
+> 
+> — Steve Jobs
+
+---
+
+## Vertical Slides
+
+You can navigate vertically within a section.
+
+--- 
+
+### Nested Vertical Slide
+
+This slide is nested below the previous one. Use arrow keys to navigate.
+
+---
+
+## Multi-line Code Block
+
+```r
+# R code example
+library(ggplot2)
+
+data <- data.frame(
+  x = 1:10,
+  y = rnorm(10)
+)
+
+ggplot(data, aes(x = x, y = y)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  theme_minimal()
+```
+
+---
+
+## Callout Boxes
+
+:::{.callout-note}
+## Note
+This is a note callout box for important information.
+:::
+
+:::{.callout-warning}
+## Warning
+This is a warning callout box for cautionary information.
+:::
+
+:::{.callout-tip}
+## Tip
+This is a tip callout box for helpful suggestions.
+:::
+
+---
+
+## Highlighted Code
+
+```{.python code-line-numbers="1-2|3|4"}
+# Lines 1-2 highlight first
+import pandas as pd
+# Then line 3 highlights
+df = pd.read_csv('data.csv')
+# Finally line 4 highlights
+print(df.head())
+```
+
+---
+
+## Speaker Notes Example
+
+This slide demonstrates speaker notes.
+
+::: {.notes}
+- Start with an engaging opener
+- Emphasize the three main points
+- Conclude with a call to action
+- Allow 2-3 minutes for questions
+:::
+
+---
+
+## Background Images
+
+![](https://via.placeholder.com/1200x800){background-size="cover"}
+
+### Title Over Background
+
+---
+
+## Custom Colors
+
+::: {style="color: #e74c3c;"}
+This text is in red.
+:::
+
+::: {style="color: #3498db; background-color: #ecf0f1; padding: 20px; border-radius: 10px;"}
+This text is blue with a light background.
+:::
+
+---
+
+## Emphasis and Formatting
+
+- **Bold text** for emphasis
+- *Italic text* for alternative emphasis
+- ***Bold and italic*** for strong emphasis
+- ~~Strikethrough text~~ for removed content
+- `Code text` for inline code
+
+---
+
+## Lists with Pauses
+
+- Point one
+
+. . .
+
+- Point two (appears after pause)
+
+. . .
+
+- Point three (appears after another pause)
+
+---
+
+## Final Slide
+
+### Thank You!
+
+Questions?
+
+---
+
+## Contact Information
+
+- **Email:** your.email@example.com
+- **Website:** www.yourwebsite.com
+- **LinkedIn:** linkedin.com/in/yourprofile
+- **GitHub:** github.com/yourprofile

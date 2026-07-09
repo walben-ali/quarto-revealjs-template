@@ -1,0 +1,130 @@
+project:
+  title: "Quarto Reveal.js Presentation"
+  type: website
+  output-dir: _output
+
+# Project-level options
+format:
+  revealjs:
+    # Theme and appearance
+    theme: [default, custom.css]
+    background-transition: fade
+    transition: slide
+    transition-speed: default  # default, fast, slow
+    
+    # Slide number and progress bar
+    slide-number: true
+    progress: true
+    
+    # Center content vertically
+    center: true
+    
+    # Display mode (for full screen)
+    display: stretch
+    
+    # Keyboard navigation
+    keyboard: true
+    touch: true
+    
+    # Auto-play
+    autoPlayMedia: null  # null, play, mute
+    autoSlide: 0  # milliseconds, 0 = disabled
+    autoSlideStoppable: true
+    
+    # Loop
+    loop: false
+    
+    # Fragments
+    fragments: true
+    
+    # PDF export
+    pdf-separate-fragments: false
+    pdf-page-height: 7.5in
+    pdf-page-width: 10in
+    
+    # Speaker view
+    showNotes: false
+    showSpeakerNotes: false
+    
+    # Code highlighting
+    highlight-style: a11y
+    code-block-bg: true
+    code-block-border-left: "#31BAE9"
+    
+    # Heading levels
+    number-sections: false
+    
+    # Typography
+    font-size-adjust: 1.0
+    
+    # Logos and footers
+    logo: "logo.png"
+    footer: "Your Organization © 2024"
+    
+    # Chalkboard (for interactive annotations)
+    chalkboard:
+      enabled: true
+      buttons: true
+      boardmarkerWidth: 3
+      chalkWidth: 7
+      chalkEffect: 0.1
+      storage: null
+      src: null
+      readOnly: null
+      transition: 800
+      theme: "chalkboard"
+      background:
+        - "rgba(127,127,127,.1)"
+        - "rgba(107,107,107,.1)"
+      penWidth: 2
+      rememberColor: false
+    
+    # Pointer
+    pointer:
+      key: "q"
+      color: "red"
+      pointerSize: 16
+      alwaysVisible: false
+    
+    # Preview links
+    preview-links: auto
+    preview-links-height: 720
+    
+    # Timing
+    totalTime: 0  # minutes, 0 = disabled
+    minimumTimePerSlide: 0
+    
+    # Vertical slide sizing
+    height: 900
+    width: 1200
+    margin: 0.1
+    
+    # Show slide number
+    # Options: all, print, speaker
+    show-slide-number: all
+    
+    # Reveal.js options
+    reveal-options:
+      hash: true
+      controls: true
+      controlsTutorial: true
+      controlsLayout: "bottom-right"
+      help: true
+      pdfMaxPagesPerSlide: 1
+      pdfSeparateFragments: false
+
+# Metadata
+title: "Your Presentation Title"
+author: "Author Name"
+date: today
+
+# References (if using citations)
+bibliography: references.bib
+csl: chicago-author-date.csl
+
+# Execution
+execute:
+  echo: false
+  warning: false
+  message: false
+  cache: false
