@@ -26,8 +26,7 @@ format:
     keyboard: true
     touch: true
     
-    # Auto-play
-    autoPlayMedia: null  # null, play, mute
+    # Auto-play settings
     autoSlide: 0  # milliseconds, 0 = disabled
     autoSlideStoppable: true
     
@@ -44,7 +43,6 @@ format:
     
     # Speaker view
     showNotes: false
-    showSpeakerNotes: false
     
     # Code highlighting
     highlight-style: a11y
@@ -68,9 +66,6 @@ format:
       boardmarkerWidth: 3
       chalkWidth: 7
       chalkEffect: 0.1
-      storage: null
-      src: null
-      readOnly: null
       transition: 800
       theme: "chalkboard"
       background:
@@ -120,7 +115,6 @@ date: today
 
 # References (if using citations)
 bibliography: references.bib
-csl: chicago-author-date.csl
 
 # Execution
 execute:
